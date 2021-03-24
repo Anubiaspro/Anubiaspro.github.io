@@ -1,0 +1,16 @@
+/*Не подключен. Просто пример*/
+.header(@fz: 20px) {
+    margin: 80px auto;
+    font-size: @fz;
+    line-height: 1.5;
+}
+
+@background: #111;
+
+.font {
+    .header(@fz: 10px);
+    background-color: @background;
+}
+.sheader {
+    .header;
+}
